@@ -1,0 +1,96 @@
+{
+  "CategoryList" : [ {
+    "CategoryId" : "1",
+    "CategoryName" : "Featured",
+    "taxTypeId": 1
+  }, {
+    "CategoryId" : "2",
+    "CategoryName" : "Breakfast",
+    "taxTypeId": 1  
+  }, {
+    "CategoryId" : "3",
+    "CategoryName" : "Starters",
+    "taxTypeId": 1
+  }, {
+    "CategoryId" : "4",
+    "CategoryName" : "Main-Course",
+    "taxTypeId": 1  
+  }, {
+    "CategoryId" : "5",
+    "CategoryName" : "Biryani",
+    "taxTypeId": 1  
+  },{
+    "CategoryId" : "6",
+    "CategoryName" : "Beverages",
+    "taxTypeId": 2  
+  } ],
+  "FoodType" : [ {
+    "FoodTypeName" : "Veg",
+    "FoodTypeValue" : 0
+  }, {
+    "FoodTypeName" : "Non-Veg",
+    "FoodTypeValue" : 1
+  } ],
+  "ListOfProducts" : [ {
+    "ProductName" : "Full tandoori chicken",
+    "categoryId" : 1,
+    "foodType" : 1,
+    "id" : 0,
+    "productDescription" : "Full tandoori chicken cooked in pan",
+    "productPrice" : "250",
+    "productimgurl" : "/img/Chicken_full.jpg"
+  }, {
+    "ProductName" : "Grilled Chicken with Tomato-Avocado Salad",
+    "categoryId" : 2,
+    "foodType" : 1,
+    "id" : 1,
+    "productDescription" : "Grilled Chicken with Tomato-Avocado Salad",
+    "productPrice" : "370",
+    "productimgurl" : "/img/chicken-salad.jpg"
+  }, {
+    "ProductName" : "Grilled chicken legs",
+    "categoryId" : 1,
+    "foodType" : 1,
+    "id" : 3,
+    "productDescription" : "Grilled chicken legs",
+    "productPrice" : "400",
+    "productimgurl" : "/img/indian-non-veg.jpg"
+  }, {
+    "ProductName" : "passion berry",
+    "categoryId" : 3,
+    "foodType" : 0,
+    "id" : 4,
+    "productDescription" : "",
+    "productPrice" : "150",
+    "productimgurl" : "/img/passion berry.jpeg"
+  }, {
+    "ProductName" : "Red sauce pasta",
+    "categoryId" : 1,
+    "foodType" : 0,
+    "id" : 5,
+    "productDescription" : "",
+    "productPrice" : "150",
+    "productimgurl" : "/img/test-1.jpg"
+  }, {
+    "ProductName" : "Classic Pina Colada",
+    "categoryId" : 6,
+    "foodType" : 0,
+    "id" : 6,
+    "productDescription" : "Classic Pina Colada",
+    "productPrice" : "150",
+    "productimgurl" : "/img/pina-colada.jpg"
+  } ],
+    "TaxTable": [
+        {
+            "taxTypeId": 1,
+            "taxPercentage": 5,
+            "taxTypeName": "Foods"
+        },
+        {
+            "taxTypeId": 2,
+            "taxPercentage": 12,
+            "taxTypeName": "Beverages"
+        }
+    ]
+    
+}

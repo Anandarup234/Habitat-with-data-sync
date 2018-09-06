@@ -1,0 +1,18 @@
+﻿---
+ID: "46aae85d-2c00-4f09-94ef-62066dacbe73"
+Parent: "cc70fe6d-9cf9-41b0-a5c7-3c947a748eb8"
+Template: "cc70fe6d-9cf9-41b0-a5c7-3c947a748eb8"
+Path: /sitecore/templates/User Defined/Tax/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180903T103722Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

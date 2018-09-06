@@ -1,0 +1,23 @@
+﻿---
+ID: "0c2956a9-f692-44b4-8e9b-cd9e709415d8"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Home/Synced Items
+DB: master
+SharedFields:
+- ID: "c2f5b2b5-71c1-431e-bf7f-dbdc1e5a2f83"
+  Hint: __Quick Action Bar Validation Rules
+  Type: TreelistEx
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180903T101826Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

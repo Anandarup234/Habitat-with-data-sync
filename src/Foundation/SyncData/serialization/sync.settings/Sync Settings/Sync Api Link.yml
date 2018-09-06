@@ -1,0 +1,27 @@
+﻿---
+ID: "66b29ea2-1df6-4181-b43a-63756259010f"
+Parent: "fa9c9825-b961-4200-a9fb-fe59886e607f"
+Template: "5f8db376-542e-4768-bf48-23e9a8c5c79e"
+Path: /sitecore/content/Home/Sync Settings/Sync Api Link
+DB: master
+SharedFields:
+- ID: "c2978f6d-5381-44dc-acb5-5e205052d291"
+  Hint: IsLocalFile
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180830T063837Z
+    - ID: "34841673-03e8-4284-81c5-b86791e56813"
+      Hint: LocalFilePath
+      Value: |
+        C:\projects\Habitat-master\src\Foundation\SyncData\Code\Mock Data\eat-fresh.json
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,194 @@
+{
+    "CategoryList": [
+        {
+            "CategoryId": 1,
+            "CategoryName": "Featured",
+            "taxTypeId": 1
+        },
+        {
+            "CategoryId": 2,
+            "CategoryName": "Breakfast",
+            "taxTypeId": 1
+        },
+        {
+            "CategoryId": 3,
+            "CategoryName": "Starters",
+            "taxTypeId": 1
+        },
+        {
+            "CategoryId": 4,
+            "CategoryName": "Main-Course",
+            "taxTypeId": 1
+        },
+        {
+            "CategoryId": 5,
+            "CategoryName": "Biryani",
+            "taxTypeId": 1
+        },
+        {
+            "CategoryId": 6,
+            "CategoryName": "Deserts",
+            "taxTypeId": 2
+        },
+        {
+            "CategoryId": 7,
+            "CategoryName": "Beverages",
+            "taxTypeId": 2
+        }
+    ],
+    "FoodType": [
+        {
+            "FoodTypeName": "Veg Food",
+            "FoodTypeValue": 0
+        },
+        {
+            "FoodTypeName": "Non-Veg Food",
+            "FoodTypeValue": 1
+        }
+    ],
+    "ListOfProducts": [
+        {
+            "ProductName": "Full tandoori chicken",
+            "CategoryId": 1,
+            "FoodType": 1,
+            "id": 0,
+            "productDescription": "Full tandoori chicken cooked in pan",
+            "ProductPrice": "250",
+            "Productimgurl": "img/Chicken_full.jpg"
+        },
+        {
+            "ProductName": "Grilled Chicken Salad",
+            "CategoryId": 2,
+            "FoodType": 1,
+            "id": 1,
+            "productDescription": "Grilled Chicken with Tomato-Avocado Salad",
+            "productPrice": "200",
+            "productimgurl": "img/chicken-salad.jpg"
+        },
+        {
+            "ProductName": "Grilled chicken legs",
+            "CategoryId": 1,
+            "FoodType": 1,
+            "id": 3,
+            "productDescription": "Grilled chicken legs",
+            "productPrice": "120",
+            "productimgurl": "img/indian-non-veg.jpg"
+        },
+        {
+            "ProductName": "passion berry",
+            "CategoryId": 6,
+            "FoodType": 0,
+            "id": 4,
+            "productDescription": "passion berry",
+            "productPrice": "150",
+            "productimgurl": "img/passion berry.jpeg"
+        },
+        {
+            "ProductName": "Red sauce pasta",
+            "CategoryId": 1,
+            "FoodType": 0,
+            "id": 5,
+            "productDescription": "Red sauce pasta",
+            "productPrice": "150",
+            "productimgurl": "img/test-1.jpg"
+        },
+        {
+            "ProductName": "Classic Pina Colada",
+            "CategoryId": 7,
+            "FoodType": 0,
+            "id": 6,
+            "productDescription": "Classic Pina Colada",
+            "productPrice": "150",
+            "productimgurl": "img/pina-colada.jpg"
+        },
+        {
+            "ProductName": "Chicken Noodles",
+            "CategoryId": 4,
+            "FoodType": 0,
+            "id": 7,
+            "productDescription": "Chicken Noodles",
+            "productPrice": "180",
+            "productimgurl": "img/test-3.jpg"
+        },
+        {
+            "ProductName": "Caeser Salad",
+            "CategoryId": 3,
+            "FoodType": 0,
+            "id": 8,
+            "productDescription": "Caeser Salad",
+            "productPrice": "125",
+            "productimgurl": "img/test-4.jpg"
+        },
+        {
+            "ProductName": "Pasta Italiano",
+            "CategoryId": 1,
+            "FoodType": 0,
+            "id": 9,
+            "productDescription": "Pasta Italiano",
+            "productPrice": "150",
+            "productimgurl": "img/test-5.jpg"
+        },
+        {
+            "ProductName": "Fresh Avocado Salad",
+            "CategoryId": 2,
+            "FoodType": 0,
+            "id": 10,
+            "productDescription": "Fresh Avocado Salad",
+            "productPrice": "120",
+            "productimgurl": "img/test-8.jpg"
+        },
+        {
+            "ProductName": "Rosted Tomato Basil Spaghetti",
+            "CategoryId": 4,
+            "FoodType": 0,
+            "id": 11,
+            "productDescription": "Rosted Tomato Basil Spaghetti",
+            "productPrice": "220",
+            "productimgurl": "img/test-10.jpg"
+        },
+        {
+            "ProductName": "Hyderabadi Chicken Biryani",
+            "CategoryId": 5,
+            "FoodType": 1,
+            "id": 12,
+            "productDescription": "Hyderabadi Chicken Biryani",
+            "productPrice": "250",
+            "productimgurl": "img/Hyerabadi_chicken_biryani.jpg"
+        },
+        {
+            "ProductName": "Kolkata Style Mutton Biryani",
+            "CategoryId": 5,
+            "FoodType": 1,
+            "id": 13,
+            "productDescription": "Kolkata Style Mutton Biryani",
+            "productPrice": "280",
+            "productimgurl": "img/kolkata_mutton_biryani.jpg"
+        },
+        {
+            "ProductName": "Chicken Chap",
+            "CategoryId": 4,
+            "FoodType": 1,
+            "id": 14,
+            "productDescription": "Kolkata Style Chicken Chap",
+            "productPrice": "280",
+            "productimgurl": "img/Chicken_Chaap.jpg"
+        }
+    ],
+    "TaxTable": [
+        {
+            "taxPercentage": 5,
+            "taxTypeId": 1,
+            "taxTypeName": "Foods Type"
+        },
+        {
+            "taxPercentage": 12,
+            "taxTypeId": 2,
+            "taxTypeName": "Beverages"
+        },
+        {
+            "taxPercentage": 18,
+            "taxTypeId": 3,
+            "taxTypeName": "Deserts"
+        }
+    ]
+}

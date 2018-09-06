@@ -1,0 +1,18 @@
+﻿---
+ID: "d9312a77-d395-4226-bdae-793072ae1093"
+Parent: "544c7156-4aa4-4fcb-9d59-7809877c817e"
+Template: "544c7156-4aa4-4fcb-9d59-7809877c817e"
+Path: /sitecore/templates/User Defined/Product/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180903T105211Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
